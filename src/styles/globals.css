@@ -1,3 +1,9 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -86,13 +92,8 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  
+  
 }
 
 a {
@@ -101,7 +102,8 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
+  
   html {
-    color-scheme: dark;
+    
   }
 }
